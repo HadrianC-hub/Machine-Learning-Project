@@ -1,0 +1,4 @@
+#virtual enviroment
+.venv/
+uv.lock
+
