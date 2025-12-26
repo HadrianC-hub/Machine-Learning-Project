@@ -1,8 +1,8 @@
 {
   "model_name": "probl1_svm",
-  "model_path": "models/probl1_svm_20251222_145735.joblib",
-  "timestamp": "20251222_145735",
-  "training_date": "2025-12-22T14:57:35.309935",
+  "model_path": "models/probl1_svm_20251225_183323.joblib",
+  "timestamp": "20251225_183323",
+  "training_date": "2025-12-25T18:33:23.198524",
   "hyperparameters": {
     "memory": null,
     "steps": [
@@ -12,13 +12,13 @@
       ],
       [
         "model",
-        "SVC(C=69.84841896499474, cache_size=2000, class_weight='balanced', gamma='auto',\n    random_state=42)"
+        "SVC(C=69.84841896499474, cache_size=2000, class_weight='balanced', gamma='auto',\n    probability=True, random_state=42)"
       ]
     ],
     "transform_input": null,
     "verbose": false,
     "scaler": "StandardScaler()",
-    "model": "SVC(C=69.84841896499474, cache_size=2000, class_weight='balanced', gamma='auto',\n    random_state=42)",
+    "model": "SVC(C=69.84841896499474, cache_size=2000, class_weight='balanced', gamma='auto',\n    probability=True, random_state=42)",
     "scaler__copy": true,
     "scaler__with_mean": true,
     "scaler__with_std": true,
@@ -32,7 +32,7 @@
     "model__gamma": "auto",
     "model__kernel": "rbf",
     "model__max_iter": -1,
-    "model__probability": false,
+    "model__probability": true,
     "model__random_state": 42,
     "model__shrinking": true,
     "model__tol": 0.001,
